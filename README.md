@@ -28,6 +28,20 @@ Selamat datang di **Sistem Manajemen Inventaris Stockist AFC Cimehong**. Sistem 
   - Jumlah update (int/merupakan pengurangan dari jumlah masuk dan jumlah keluar)
   - Tanggal Update (date time) -- secara otomatis tergenerate sesuai tanggal update
 
+    ##### database simulasi
+
+| Code | Nama              | Jumlah Masuk | Jumlah Keluar | Jumlah Update | Kategori | Tgl Update   |
+|------|-------------------|--------------|---------------|---------------|----------|--------------|
+| 001  | Utsukushii        | 1600         | 80            | 1520          | MAX      | 12-09-2024   |
+| 002  | Subarashii         | 600          | 80            | 520           | MED      | 12-09-2024   |
+| 003  | Sensasi Suru       | 1600         | 80            | 1520          | MED      | 12-09-2024   |
+| 010  | Heikaru            | 600          | 80            | 520           | MIN      | 12-09-2024   |
+| 011  | Meijaku            | 600          | 80            | 520           | MIN      | 12-09-2024   |
+| 020  | Kose               | 1600         | 15            | 1585          | MAX      | 12-09-2024   |
+| 021  | Kanebo             | 600          | 80            | 520           | MED      | 12-09-2024   |
+| 030  | Utsukushii Gold    | 1600         | 1100          | 500           | MED      | 12-09-2024   |
+| 040  | Shu Uemura         | 600          | 100           | 500           | MED      | 12-09-2024   |
+
   #### Sub Menu 2 : Menambah Stock Baru (Create)
   Sub Menu ini berfungsi menambah stock baru (dengan nama baru dan kode barang auto-generate). Pada sub menu ini, tidak dimungkinkan menambahkan stock baru dengan nama yang sudah ada sebelumnnya. Jika menambah stock baru dengan yang sama, maka akan muncul notifikasi untuk dapat menggunakan fitur Update Stock (memperbarui nama stock yang sudah ada)
 
