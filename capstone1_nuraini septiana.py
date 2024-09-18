@@ -20,7 +20,7 @@ stock_db = {
 def admin_login():
     print('\n**Welcome to Stockist AFC Cimehong**')
     print('------------------------------------')
-    print('Admin Login')
+    print('Please Login')
     username = input('Username: ')
     password = input('Password: ')
 
@@ -33,7 +33,7 @@ def admin_login():
 def user_login():
     print('\n**Welcome to Stockist AFC Cimehong**')
     print('------------------------------------')
-    print('User Login')
+    print('Please Login')
     username = input('Username: ')
     password = input('Password: ')
 
